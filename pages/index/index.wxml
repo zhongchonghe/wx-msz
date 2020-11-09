@@ -1,0 +1,57 @@
+<van-search value="{{ value }}" input-align="center" placeholder="请输入搜索关键词" />
+
+<my-swiper />
+
+<video src="../assets/video/video.mp4" ></video>
+
+<van-tabs swipeable>
+	<van-tab title="社群简介">
+		<text class="course">简介</text>
+<view>.....</view>
+<view>.....</view>
+<view>.....</view>
+<view>.....</view>
+<view>.....</view>
+<view>.....</view>
+<view>.....</view>
+	</van-tab>
+	<van-tab title="课程目录">
+		<text class="course">课程列表</text>
+		<view class="all">
+			<view class="left">1</view>
+			<view class="right">
+				<text class="top">第一节: 全面产品定位(上)</text>
+				<text class="bottom">03月30日 16:01   2272次学习</text>
+			</view>
+		</view>
+		<view class="all">
+			<view class="left">2</view>
+			<view class="right">
+				<text class="top">第一节: 全面产品定位(下)</text>
+				<text class="bottom">03月30日 16:01   2272次学习</text>
+			</view>
+		</view>
+		<view class="all">
+			<view class="left">3</view>
+			<view class="right">
+				<text class="top">第一节: 全面产品定位(上)</text>
+				<text class="bottom">03月30日 16:01   2272次学习</text>
+			</view>
+		</view>
+		<view class="all">
+			<view class="left">4</view>
+			<view class="right">
+				<text class="top">第一节: 全面产品定位(上)</text>
+				<text class="bottom">03月30日 16:01   2272次学习</text>
+			</view>
+		</view>
+	</van-tab>
+	<van-tab title="配套资源">
+  <van-grid column-num="2">
+  <van-grid-item icon="photo-o" text="文字" wx:for="{{ 12 }}" />
+</van-grid>
+  </van-tab>
+	<!-- <van-tab title="小程序2">小程序2</van-tab> -->
+</van-tabs>
+<view class="one">
+</view>

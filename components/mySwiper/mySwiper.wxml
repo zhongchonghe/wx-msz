@@ -1,0 +1,8 @@
+
+		<swiper autoplay="true" indicator-dots="true" circular="true" interval="{{2500}}">
+			<swiper-item wx:for="{{imgData}}" wx:key="item">
+				<!-- <navigator url="item.url"> -->
+					<image mode="scaleToFill" src="{{item}}" />
+				<!-- </navigator> -->
+			</swiper-item>
+		</swiper>

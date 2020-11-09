@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/cart/cart",
+    "pages/us/us",
+    "pages/user/user"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#4449d7",
+    "navigationBarTitleText": "毛社长",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#5E5E5E",
+    "selectedColor": "#1296db",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "./pages/assets/home.png",
+        "selectedIconPath": "./pages/assets/my_home.png"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "text": "学习中心",
+        "iconPath": "./pages/assets/cart.png",
+        "selectedIconPath": "./pages/assets/my_cart.png"
+      },
+      {
+        "pagePath": "pages/us/us",
+        "text": "联系老师",
+        "iconPath": "./pages/assets/user.png",
+        "selectedIconPath": "./pages/assets/my_user.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "usingComponents": {
+    "van-search": "@vant/weapp/search/index"
+  }
+}
